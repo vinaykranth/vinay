@@ -1,0 +1,37 @@
+{% extends 'Navbar.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% block body %}
+<div class="row">
+    <div class="card" style="width: 18rem;">
+  <img src="{% static 'images/rolls-royce.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ROOLS ROYCE</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">RENT</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+ <img src="{% static 'images/KIA.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">KIA</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">RENT</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="{% static 'images/audi.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">AUDI</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">RENT</a>
+  </div>
+</div>
+</div>
+
+{% endblock %}
+</html>l>
